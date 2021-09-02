@@ -7,6 +7,6 @@ int main(void)
     for(;;)
     {
         mUART_PutString("Hello world\n");
-        CyDelay(1000);
+        CyDelay(2000);
     }
 }
